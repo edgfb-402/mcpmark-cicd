@@ -1,5 +1,6 @@
-const unusedVar = 123;
-console.log("Hello world")
+const usedVar = 123;
+console.log('Hello world');
 function test() {
-  return "test"
+  return 'test';
 }
+console.log(usedVar);
